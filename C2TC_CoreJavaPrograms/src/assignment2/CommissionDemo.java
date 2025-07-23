@@ -6,6 +6,8 @@ public class CommissionDemo {
         Commission obj = new Commission();
         obj.acceptDetails();
         obj.calculateCommission();
+        
+        
     }
 
 }
