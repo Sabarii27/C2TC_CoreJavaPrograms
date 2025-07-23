@@ -24,6 +24,7 @@ public class Commission {
     }
 
     public void calculateCommission() {
+    	
         double commission;
 
         if (salesAmount >= 100000) {
