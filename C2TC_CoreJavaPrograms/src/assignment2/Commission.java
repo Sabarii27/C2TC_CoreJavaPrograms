@@ -7,7 +7,7 @@ public class Commission {
     String phone;
     double salesAmount;
     public Commission() {
-        System.out.println("Student object is created");
+        System.out.println("Student object is create");
     }
 
     public void acceptDetails() {
