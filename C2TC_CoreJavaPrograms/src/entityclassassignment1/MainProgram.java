@@ -4,7 +4,7 @@ public class MainProgram {
 	public static void main(String[] args) {
 		StudentDetails s1= new StudentDetails();
 		s1.setId(101);
-		s1.setName("Charm");
+		s1.setName("Sabarii");
 		s1.setDepartment("CSE");
 		System.out.println(s1);
 		

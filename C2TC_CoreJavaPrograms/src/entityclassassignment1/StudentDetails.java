@@ -39,6 +39,6 @@ public class StudentDetails {
 
 	@Override
 	public String toString() {
-		return "StudentDetails [ID=" + id + ", Name=" + name + ", Department=" + department + "]";
+		return "StudentDetails [ID=" + id + ", Namee=" + name + ", Department=" + department + "]";
 	}
 }
