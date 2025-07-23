@@ -7,7 +7,7 @@ public class Commission {
     String phone;
     double salesAmount;
     public Commission() {
-        System.out.println("Student object is create");
+        System.out.println("Student object is created");
     }
 
     public void acceptDetails() {
@@ -15,7 +15,6 @@ public class Commission {
         System.out.print("Enter Name: ");
         name = sc.nextLine();
         System.out.print("Enter Address: ");
-        
         address = sc.nextLine();
         System.out.print("Enter Phone: ");
         phone = sc.nextLine();
@@ -25,7 +24,6 @@ public class Commission {
     }
 
     public void calculateCommission() {
-    	
         double commission;
 
         if (salesAmount >= 100000) {
