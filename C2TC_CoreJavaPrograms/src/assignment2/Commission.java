@@ -28,7 +28,7 @@ public class Commission {
         double commission;
 
         if (salesAmount >= 100000) {
-            commission = salesAmount * 0.18;
+            commission = salesAmount * 0.10;
         } else if (salesAmount >= 50000) {
             commission = salesAmount * 0.05;
         } else if (salesAmount >= 30000) {
