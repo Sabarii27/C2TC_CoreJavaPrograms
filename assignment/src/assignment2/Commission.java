@@ -15,6 +15,7 @@ public class Commission {
         System.out.print("Enter Name: ");
         name = sc.nextLine();
         System.out.print("Enter Address: ");
+        
         address = sc.nextLine();
         System.out.print("Enter Phone: ");
         phone = sc.nextLine();
