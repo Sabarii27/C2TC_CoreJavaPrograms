@@ -15,8 +15,9 @@ public class FinalVariable {
 
     static {
         Y = 20; 
-        System.out.println("Value of Y: " + Y);
+       System.out.println("Value of Y: " + Y);
     }
+
 
     public static void main(String[] args) {
         FinalVariable fv = new FinalVariable();
