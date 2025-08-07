@@ -18,8 +18,8 @@ class HashMapDemo
 		System.out.println(bookMap);
 		
 		System.out.println("Traversing a HashMap");
-		Set set = bookMap.entrySet(); // Get a set of the entries
-		Iterator i = set.iterator(); // Get an iterator
+		Set set = bookMap.entrySet(); 
+		Iterator i = set.iterator(); 
 		while(i.hasNext()) { // Display elements
 			Map.Entry me = (Map.Entry)i.next();
 			System.out.println(me.getKey() + ": "+ me.getValue());
